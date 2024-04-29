@@ -61,3 +61,8 @@ git clone https://github.com/ClementPerroud/Gym-Trading-Env
 
 [Documentation available here](https://gym-trading-env.readthedocs.io/en/latest/index.html)
 -----------------------------------------------------------------------------------------------
+
+It has history inoformation which includes all the details of signal generation and exist from market. You can see a portfolio_valuation columns which has profolio value after some iteration. 
+
+
+![Render animated image](https://raw.githubusercontent.com/ClementPerroud/Gym-Trading-Env/main/docs/source/images/market_history.gif)
