@@ -62,7 +62,7 @@ git clone https://github.com/ClementPerroud/Gym-Trading-Env
 [Documentation available here](https://gym-trading-env.readthedocs.io/en/latest/index.html)
 -----------------------------------------------------------------------------------------------
 
-It has history inoformation which includes all the details of signal generation and exist from market. You can see a portfolio_valuation columns which has profolio value after some iteration which is `10191
+This comprehensive data is instrumental in assessing the effectiveness of the model during both training and testing phases, providing a straightforward means of comprehension. For instance, observing the portfolio valuation of 10,191, starting with an initial balance of 10,000 on May 22, 2018, and concluding on May 24, 2018, spanning a two-day period, highlights the profit generated. 
 
 
 ![Market History](https://github.com/TiwariLaxuu/Gym-Trading-Env/blob/main/readme_images/market_history.png)
