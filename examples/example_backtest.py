@@ -88,11 +88,12 @@ i = 0
 while not done and not truncated:
     # Pick a position by its index in your position list (=[-1, 0, 1])....usually something like : position_index = your_policy(observation)
     state = torch.tensor(observation, dtype=torch.float32)
-    action_probs = policy(state)
+    action_probs = policy(state)   # random bacause model is not trained
     dist = Categorical(action_probs)
     action = dist.sample()
-    position_index = action
-    observation, reward, done, truncated, info = env.step(position_index)
+    observation, reward, done, truncated, info = env.step(action)
     i = i + 1
     print('Count ', i )
 
+# Render
+env.save_for_render()
